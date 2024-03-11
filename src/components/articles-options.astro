@@ -1,0 +1,54 @@
+<div class="max-w-4xl ml-0">
+  <h2 class="text-lg font-bold mb-5">Articulos por corte</h2>
+
+  <article class="flex flex-wrap gap-5">
+    <a
+      href="/first-court"
+      class="hvr-grow-rotate bg-black w-80 h-56 rounded-2xl flex justify-center items-center flex-col"
+    >
+      <h4 class="text-2xl font-semibold tracking-wider">Primer Corte</h4>
+      <p class="w-48 text-xs text-slate-300 mt-5 font-medium text-center">
+        Mantenimiento de un computador
+      </p>
+    </a>
+    <a
+      href="#"
+      class="hvr-grow-rotate bg-[#00CBFF] w-80 h-56 rounded-2xl flex justify-center items-center flex-col"
+    >
+      <h4 class="text-2xl font-semibold tracking-wider">Segundo Corte</h4>
+    </a>
+    <a
+      href="#"
+      class="hvr-grow-rotate bg-[#FF8860] w-80 h-56 rounded-2xl flex justify-center items-center flex-col"
+    >
+      <h4 class="text-2xl font-semibold tracking-wider">Tercer Corte</h4>
+    </a>
+    <a
+      href="#"
+      class="hvr-grow-rotate bg-red-800 w-80 h-56 rounded-2xl flex justify-center items-center flex-col"
+    >
+      <h4 class="text-2xl font-semibold tracking-wider">Cuarto Corte</h4>
+    </a>
+  </article>
+</div>
+
+<style>
+  .hvr-grow-rotate {
+    /* display: inline-block; */
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+
+  .hvr-grow-rotate:hover,
+  .hvr-grow-rotate:focus,
+  .hvr-grow-rotate:active {
+    -webkit-transform: scale(1.1) rotate(2deg);
+    transform: scale(1.1) rotate(2deg);
+  }
+</style>
