@@ -20,6 +20,56 @@ import Layout from '../layouts/Layout.astro'
 
   <article class="mt-10">
     <section>
+      <a href="/articles/OS-evolution">
+        <div>
+          <h2 class="text-xl font-bold">
+            Evolucion de los Sistemas Operativos
+          </h2>
+          <small>10 de Marzo de 2024 · 10 minutos de lectura</small>
+        </div>
+        <img
+          src="/evolucion-sistemas-operativos-1536x877.jpg"
+          alt="Imagen con muchos ordenadores mostrando la evolucion de los SO"
+          class="image-SO-evolution w-2/3 md:w-2/5"
+          style="margin-top: 1.2rem"
+        />
+      </a>
+      <p class="mt-5 text-base">
+        La evolución de los sistemas operativos ha sido un viaje fascinante,
+        desde los primeros días de la interacción directa con la máquina hasta
+        los sistemas multiprogramados, en red y distribuidos de hoy. Hitos como
+        el desarrollo de Unix y el lenguaje C marcaron grandes avances, y la
+        evolución continúa con desafíos y oportunidades en el avance del
+        hardware y software. Los sistemas operativos han facilitado el trabajo
+        de los usuarios y han resuelto problemas cada vez más complejos,
+        marcando hitos significativos en la historia de la tecnología.
+      </p>
+    </section>
+    <section class="mt-5">
+      <a href="/articles/OS-concepts">
+        <div>
+          <h2 class="text-xl font-bold">Sistemas Operativos definiciones</h2>
+          <small>10 de Marzo de 2024 · 5 minutos de lectura</small>
+        </div>
+        <img
+          src="/sistema-operativo-e1519306848767.jpeg"
+          alt="Tres monitores appel con el SO MacOs"
+          class="image-macos w-2/3 md:w-2/5"
+          style="margin-top: 1.2rem"
+        />
+      </a>
+      <p class="mt-5 text-base">
+        Un sistema operativo es un conjunto de programas que permite manejar la
+        memoria, disco, medios de almacenamiento de información y los diferentes
+        periféricos o recursos de una computadora. Permite interactuar y dar
+        órdenes al computador, administrar los recursos del equipo, y es la
+        estructura que soporta y maneja todos los programas y partes del
+        computador. Algunas de las tareas que realiza incluyen gestionar la
+        memoria del sistema, la carga de los diferentes programas, y correr
+        procesos.
+      </p>
+    </section>
+    <section class="mt-5">
       <a href="/articles/computer-preventive-maintenance">
         <div>
           <h2 class="text-xl font-bold">
@@ -30,7 +80,7 @@ import Layout from '../layouts/Layout.astro'
         <img
           src="/maintenance-computers.webp"
           alt="Mantenimiento de computadoras | Persona con chaqueta mirando una computadoras"
-          class="image-maintenance w-2/5"
+          class="image-maintenance w-2/3 md:w-2/5"
           style="margin-top: 1.2rem"
         />
       </a>
@@ -48,8 +98,16 @@ import Layout from '../layouts/Layout.astro'
 </Layout>
 
 <style>
+  img {
+    margin: 0 auto;
+  }
   .image-maintenance {
     aspect-ratio: 16/9;
-    margin: 0 auto;
+  }
+  .image-macos {
+    aspect-ratio: 800/396;
+  }
+  .image-SO-evolution {
+    aspect-ratio: 1536/877;
   }
 </style>
